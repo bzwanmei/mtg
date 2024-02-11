@@ -24,7 +24,7 @@ secret = "ee3ea6c34e011669deee1f2d24f025e7b46b6f7965622e636f6d"
 
 
 # Host:port pair to run proxy on.
-bind-to = "0.0.0.0:3128"
+bind-to = "0.0.0.0:443"
 
 # Defines how many concurrent connections are allowed to this proxy.
 # All other incoming connections are going to be dropped.
@@ -165,7 +165,7 @@ error-rate = 0.001
 # processed in backgrounds. An error in any URL is ignored.
 [defense.blocklist]
 # You can enable/disable this feature.
-enabled = true
+enabled = false
 # This is a limiter for concurrency. In order to protect website
 # from overloading, we download files in this number of threads.
 download-concurrency = 2
