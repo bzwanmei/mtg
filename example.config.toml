@@ -24,7 +24,7 @@ secret = "ee3ea6c34e011669deee1f2d24f025e7b46b6f7965622e636f6d"
 
 
 # Host:port pair to run proxy on.
-bind-to = "0.0.0.0:443"
+bind-to = "0.0.0.0:8443"
 
 # Defines how many concurrent connections are allowed to this proxy.
 # All other incoming connections are going to be dropped.
