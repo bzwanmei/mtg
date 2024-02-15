@@ -24,7 +24,7 @@ secret = "ee3ea6c34e011669deee1f2d24f025e7b46b6f7965622e636f6d"
 
 
 # Host:port pair to run proxy on.
-bind-to = "0.0.0.0:8443"
+bind-to = "0.0.0.0:8080"
 
 # Defines how many concurrent connections are allowed to this proxy.
 # All other incoming connections are going to be dropped.
@@ -205,7 +205,7 @@ update-each = "24h"
 # enabled/disabled
 enabled = false
 # host:port for UDP endpoint of statsd
-address = "127.0.0.1:8888"
+address = "0.0.0.0:8888"
 # prefix of metric for statsd
 metric-prefix = "mtg"
 # tag format to use
@@ -218,7 +218,7 @@ tag-format = "datadog"
 # enabled/disabled
 enabled = true
 # host:port where to start http server for endpoint
-bind-to = "127.0.0.1:3129"
+bind-to = "0.0.0.0:3129"
 # prefix of http path
 http-path = "/"
 # prefix for metrics for prometheus
